@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.banyuan.pangu.tank.mapper.user.UserMapper" >
+
+
+    <!-- 通过userId查询用户信息 -->
+    <select id="queryUserInfoById" parameterType="Long" resultType="com.banyuan.pangu.tank.domain.UserDO">
+        SELECT
+            id AS id,
+            mobile AS phone,
+            login_name AS userName
+        FROM
+            kt_user
+        WHERE
+            id = #{userId}
+    </select>
+
+    <!-- 查询学生列表 -->
+    <select id="queryUserList" resultType="com.banyuan.pangu.tank.domain.UserDO">
+        SELECT
+            id AS id,
+            mobile AS phone,
+            login_name AS userName
+        FROM
+            kt_user
+    </select>
+
+    <!-- 插入用户表 -->
+    <insert id="insertUser" parameterType="com.banyuan.pangu.tank.domain.UserDO" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO a_user
+        (username, password, phone)
+        VALUES
+        (#{userName},#{password},#{phone})
+    </insert>
+
+    <!-- 插入用户详情表 -->
+    <insert id="insertUserInfo" parameterType="com.banyuan.pangu.tank.domain.UserInfoDO">
+        INSERT INTO a_user_info
+        (user_id, sex, age, nick_name, head_img)
+        VALUES
+        (#{userId},#{sex},#{age},#{nickName},#{headImg})
+    </insert>
+
+
+</mapper>

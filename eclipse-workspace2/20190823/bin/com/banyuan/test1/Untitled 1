@@ -1,0 +1,19 @@
+
+接口Collection                                                                                                                  Map
+子接口ArrayList      Vector        LinkedList(first last,pop,push)                                                        
+实现类 List(允许重复，顺序)                         Set（不允许重复，把排序权利下放）
+                                          HashSet                        TreeSet
+                                          
+                                          定义是否重复的规则              自定义不重复元素的顺序
+                                          hashcode()                   接口Comparable     Comparator
+                                          equals()                     compareTo()           compare()
+                                          
+Map   
+key(中国唯一性)--value（可以重复）
+看API
+接口Map(key,value) 
+每个建最多🈯️对应一个值
+
+在单线程中，这两个除了（非同步，允许null），其他没有区别
+HashMap（非同步，允许null）   
+Hashtable()

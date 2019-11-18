@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;20190924&apos;&#x0A;- Original project: &apos;20190918&apos;&#x0A;- Destination element: &apos;20190924&apos;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" destination="=20190924" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569292252955" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.banuan.test2.ZI&apos; to &apos;Zi&apos;&#x0A;- Original project: &apos;5&apos;&#x0A;- Original element: &apos;com.banuan.test2.ZI&apos;&#x0A;- Renamed element: &apos;com.banuan.test2.Zi&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ZI&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.banuan.test2{ZI.java[ZI" matchStrategy="1" name="Zi" qualified="false" references="true" similarDeclarations="false" stamp="1567156943881" textual="false" version="1.0"/>
+</session>

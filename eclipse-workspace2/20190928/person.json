@@ -1,0 +1,26 @@
+[
+	{
+		"name": "张三",
+		"id": 1,
+		"address": {
+			"HomeAddress": "hainan",
+			"CompanyAddress": "shanghai"
+		},
+		"friend": [
+			{
+				"name": "李四",
+				"id": 2,
+				"address": {
+					
+				}
+			},
+			{
+				"name": "赵六",
+				"id": 4,
+				"address": {
+					
+				}
+			}
+		]
+	}
+]

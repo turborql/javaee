@@ -1,0 +1,8 @@
+div{
+	width: 100px;  
+	height: 100px; 
+	/* border-width:1px;边框宽度  粗细 
+	border-color: aqua;边框颜色 
+	border-style: solid;边框样式  */
+	border:red solid 1px;/* 综合写法 */
+}

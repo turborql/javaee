@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book id="b01">
+		<name> java</name>
+		<author>zhangsan</author>
+		<price>50.9</price>
+	</book>
+	<book id="b02">
+		<name> c语言</name>
+		<author>lisi</author>
+		<price>50</price>
+	</book>
+	<书>
+		<作者>莎士比亚</作者>
+	</书>
+
+</books>

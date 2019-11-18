@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JTextPane"
+		category="org.eclipse.wb.swing.components"
+		nextEntry="org.eclipse.wb.swing.components javax.swing.JFormattedTextField"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JTextField"
+		category="org.eclipse.wb.swing.BoxLayout"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JLabel"
+		category="org.eclipse.wb.swing.layouts"
+		nextEntry="org.eclipse.wb.swing.layouts java.awt.GridBagLayout"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JPasswordField"
+		category="org.eclipse.wb.swing.components"
+		nextEntry="org.eclipse.wb.swing.components javax.swing.JToggleButton"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JButton"
+		category="org.eclipse.wb.swing.components"/>
+</commands>

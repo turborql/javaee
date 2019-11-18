@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+<!ELEMENT student (name?,age*,sex+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+]
+>
+<student>
+	<name>zhangsan</name>
+	<age>20&lt;</age>
+	<sex>男</sex>	
+</student>

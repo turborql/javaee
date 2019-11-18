@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.banyuan.Innerclass.InnerDemo&apos; to &apos;OuterDemo&apos;&#x0A;- Original project: &apos;2&apos;&#x0A;- Original element: &apos;com.banyuan.Innerclass.InnerDemo&apos;&#x0A;- Renamed element: &apos;com.banyuan.Innerclass.OuterDemo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InnerDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.banyuan.Innerclass{InnerDemo.java[InnerDemo" matchStrategy="1" name="OuterDemo" qualified="false" references="true" similarDeclarations="false" stamp="1568099946893" textual="false" version="1.0"/>
+</session>

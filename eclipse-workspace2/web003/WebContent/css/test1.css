@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* *{
+	padding:0px;
+	margin:0px;
+} */
+/* ul{
+	list-style: decimal;
+} */
+/* ol{
+	list-style:disc;
+} */
+//
+//
+/* 类选择器 .icon-1 {
+	list-style: circle;
+	color: red;
+} // //id不能同名, id的优先级高 // */
+
+
+#p1 {
+	background-color: #7b8043;
+}
+
+#p2 {
+	background-color: green;
+}
+
+
+#p3 {
+	background-color: blue;
+}
+
+.pc1 {
+	background-color: gray;
+}
+
+/* p {
+	background-color: black;
+}  */

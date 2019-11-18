@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.banyuan.test2.Mycomparatro&apos; to &apos;Mycomparator&apos;&#x0A;- Original project: &apos;20190826&apos;&#x0A;- Original element: &apos;com.banyuan.test2.Mycomparatro&apos;&#x0A;- Renamed element: &apos;com.banyuan.test2.Mycomparator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mycomparatro&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.banyuan.test2{Mycomparatro.java[Mycomparatro" matchStrategy="1" name="Mycomparator" qualified="false" references="true" similarDeclarations="false" stamp="1566790272773" textual="false" version="1.0"/>
+</session>

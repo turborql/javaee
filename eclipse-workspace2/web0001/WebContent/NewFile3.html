@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*  伪类专门用来表示元素的一种特殊状态
+比如：访问过的超链接
+
+*/
+a:link {
+	color: yellow;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: bule;/* 没有运行成功 */
+}
+
+a:active {
+	color: black;/* 没有运行成功 */
+}
+input:focus{
+color: black;
+}
+</style>
+</head>
+<body>
+
+	<a href="http://www.baidu.com">我是一个访问过的超链接</a>
+	<br />
+	<a href="http://www.baidu123456.com">没访问过的超链接</a>
+	<p>wodeh </p>
+	<!-- 使用input创建一个文本输入框 -->
+	<input type="text"/>
+	
+</body>
+</html>

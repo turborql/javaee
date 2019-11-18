@@ -1,0 +1,10 @@
+table{
+	width: 700px;
+	height: 300px;
+	border: solid 1px red;
+	border-collapse:collapse; /* 合并相邻边框 */
+}
+td{
+	border:solid red 1px;
+}
+

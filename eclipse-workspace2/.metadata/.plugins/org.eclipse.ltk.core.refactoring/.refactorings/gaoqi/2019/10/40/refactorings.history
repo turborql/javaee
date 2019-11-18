@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.banyuan.test.Person&apos; to &apos;PassingThis&apos;&#x0A;- Original project: &apos;gaoqi&apos;&#x0A;- Original element: &apos;com.banyuan.test.Person&apos;&#x0A;- Renamed element: &apos;com.banyuan.test.PassingThis&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Person&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.banyuan.test{Person.java[Person" matchStrategy="1" name="PassingThis" qualified="false" references="true" similarDeclarations="false" stamp="1570179574231" textual="false" version="1.0"/>
+</session>

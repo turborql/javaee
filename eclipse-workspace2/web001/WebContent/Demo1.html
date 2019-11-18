@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>CSS</title>
+
+<!-- 
+2、内部样式：
+也可以将CSS样式编写到head中的style标签里面
+将样式表编写到style标签中，然后通过CSS选择器选中指定元素
+可以同时为这些元素一起设置样式，可以提高复用性
+推荐
+<style type="text/css">
+p {
+/**/CSS的注释，必须写在style标签中，或者CSS文件中
+	color: red;font-size:20px;
+}
+</style>
+ -->
+<!-- 还可以将样式表编写到外部的CSS文件中，然后提通过link标签将外部CSS样式引入到当前页面 -->
+<!-- <link rel="stylesheet" type="text/css" href="Demo1.css" /> -->
+
+</head>
+<body>
+	<!--1、可以将CSS样式编写到元的style属性中--内联样式：只对当前的元素中的内容起作用；内联样式不方便复用-->
+	<!-- 内联样式结构与表现耦合，不方便后期维护，不推荐使用 
+<p style="color: red;font-size:20px;">锄禾日当午</p>
+	<p style="color:purple;font-siza:300px">汗滴禾下土</p>
+-->
+	<p>锄禾日当午</p>
+
+
+
+</body>
+</html>

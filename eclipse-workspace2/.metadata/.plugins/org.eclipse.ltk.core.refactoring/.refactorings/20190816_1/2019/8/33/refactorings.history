@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;20190816/src&apos;&#x0A;- Original project: &apos;20190816_1&apos;&#x0A;- Destination element: &apos;20190816/src&apos;&#x0A;- Original elements:&#x0A;     20190816_1/src/com.banyuan.test2&#x0A;     20190816_1/src/com.banyuan.test3&#x0A;     20190816_1/src/com.banyuan.test1" description="Copy packages" destination="=20190816/src" element1="/src&lt;com.banyuan.test2" element2="/src&lt;com.banyuan.test3" element3="/src&lt;com.banyuan.test1" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1566033160922" version="1.0"/>
+</session>

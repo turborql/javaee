@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/* 后代元素选择器：
+作用：选中指定元素的指定后代元素
+语法：祖先元素 后代元素{}
+ */
+ #d1 span{
+ font-size:20px;
+ }
+#d1 p span{
+color: green;
+}
+/* 子元素选择器
+作用：选择指定父元素的指定子元素
+语法：父元素>子元素
+ */
+ div > span{
+ background-color: bule;/* 也没有运行出来 */
+ }
+</style>
+</head>
+<body>
+	<div id=d1>
+		<span>我是div标签中的span</span>
+		<p>
+			<span>我是P标签中的span</span>
+		</p>
+	</div>
+	<span>我是body中的span</span>
+</body>
+</html>

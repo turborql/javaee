@@ -1,0 +1,9 @@
+div{
+	width: 200px;
+	height: 200px;
+	border:1px solid green;
+	padding: 20px;/* 只写一个值表示上下左右都是20像素 */
+	padding:20px 30px;/*上下20 左右30  */
+	padding:10px 30px 50px;/* 上10 左右30 下50*/
+	padding:10px 30px 40px 50px;/*顺时针  */
+}

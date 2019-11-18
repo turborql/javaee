@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.d1{
+ background-color: #cbd1c7;
+ color: #3e3e3e;
+	opacity: 0.6;
+}
+.d2{
+	font-size: 15px;
+	color: #3e3e3e;
+}
+.d3{
+	font-size: 12px;
+}
+div{
+	width: 300px;
+	height: 300px;
+}
+div li{
+	color: #aaaaaa;
+}
+#image{
+	background-image: url("../image/04.png");
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+}
+#tell{
+	list-style-image: url("../image/tell.png");
+}
+#email{
+	list-style-image: url("../image/email.png");
+}
+#image{
+	
+}
+

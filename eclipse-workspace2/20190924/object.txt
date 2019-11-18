@@ -1,0 +1,3 @@
+apple=com.banyuan.test1.Apple
+car=com.banyuan.test1.Car
+dog=com.banyuan.test1.Dog
